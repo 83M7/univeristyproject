@@ -1,0 +1,77 @@
+body {
+    background: url(/img/login.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.login {
+    width: 450px;
+    height: 550px;
+    padding: 0 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.login img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 120px;
+}
+
+.login h1 {
+    margin: 0;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.login label {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    background: peru;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: transform 0.5s ease;
+}
+
+.login input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+.login a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
